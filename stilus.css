@@ -20,15 +20,25 @@ header {
 nav {
     font-size: 16px;
     gap: 2px;
+    max-width: 500px;
+    margin: auto;
+    
 }
 nav ul {
     list-style: none;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 2px;
+    grid-template-columns: 150px 150px 150px 210px 150px;
+    gap: 1px;
+    justify-content: center;
 }
 nav a {
     text-decoration: none;
     color: aliceblue;
     box-shadow: 1px;
+}
+nav li {
+    background-color: rgb(216, 193, 193);
+    padding: 5px;
+    border-radius: 10px;
+
 }
