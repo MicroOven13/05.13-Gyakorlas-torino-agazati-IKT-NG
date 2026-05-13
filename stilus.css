@@ -22,7 +22,7 @@ nav {
     gap: 2px;
     max-width: 500px;
     margin: auto;
-    
+    padding: 15px;
 }
 nav ul {
     list-style: none;
@@ -35,9 +35,10 @@ nav a {
     text-decoration: none;
     color: aliceblue;
     box-shadow: 1px;
+    opacity: 100%;
 }
 nav li {
-    background-color: rgb(216, 193, 193);
+    background-color: rgba(163, 163, 163,0.6);
     padding: 5px;
     border-radius: 10px;
 
